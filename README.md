@@ -1,2 +1,2 @@
-# login_register
-a login and register project
+# PHP-Login-System
+A sample login system with user registration
