@@ -24,7 +24,7 @@
 
 			if(password_verify($password, $hash)) {
 				// User is signed in
-				$return['redirect'] = '/Project-Files/dashboard.php';
+				$return['redirect'] = '/login_register/dashboard.php';
 
 				$_SESSION['user_id'] = $user_id;
 			} else {

@@ -5,5 +5,5 @@
 	setcookie(session_name(),'',0,'/');
 	session_regenerate_id(true);
 
-	header("Location: /Project-Files/index.php");
+	header("Location: /login_registerindex.php");
 ?>

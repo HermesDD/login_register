@@ -30,7 +30,7 @@
   	<div class="uk-section uk-container">
   		<h2>Dashboard</h2>
       <p>Hello <?php echo $User->email; ?>, you registered at <?php echo $User->reg_time; ?></p>
-      <p><a href="/Project-Files/logout.php">Logout</a></p>
+      <p><a href="/login_register/logout.php">Logout</a></p>
       <p>Ideas for extending this system:</p>
       <ul>
         <li>NEW FEEDS</li>

@@ -27,8 +27,8 @@
       <?php echo "Today is:". date("Y-m-d")?>
 
   		<p>
-  			<a href="Project-Files/login.php">Login</a>
-  			<a href="Project-Files/register.php">Register</a>
+  			<a href="login_register/login.php">Login</a>
+  			<a href="login_register/register.php">Register</a>
   		</p>
   	</div>
 

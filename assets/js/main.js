@@ -26,7 +26,7 @@ $(document).on("submit", "form.js-register", function(event) {
 
 	$.ajax({
 		type: 'POST',
-		url: 'Project-Files/ajax/register.php',
+		url: 'login_register/ajax/register.php',
 		data: dataObj,
 		dataType: 'json',
 		async: true,
@@ -80,7 +80,7 @@ $(document).on("submit", "form.js-login", function(event) {
 
 	$.ajax({
 		type: 'POST',
-		url: 'Project-Files/ajax/login.php',
+		url: 'login_register/ajax/login.php',
 		data: dataObj,
 		dataType: 'json',
 		async: true,

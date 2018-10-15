@@ -35,7 +35,7 @@
 
 			$_SESSION['user_id'] = (int) $user_id;
 
-			$return['redirect'] = 'Project-Files/dashboard.php?message=welcome';
+			$return['redirect'] = 'login_register/dashboard.php?message=welcome';
 			$return['is_logged_in'] = true;
 		}
 
